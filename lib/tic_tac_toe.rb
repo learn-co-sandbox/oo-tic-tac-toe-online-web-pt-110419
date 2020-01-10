@@ -41,5 +41,12 @@ WIN_COMBINATIONS [
       index.between?(0,8) && !position_taken?(index)
     end
     
-    
+    def turn_count
+      number_of_turns = 0
+      @board.each do |space|
+      if space == "X" || space == "O"
+        number_of_turns += 1
+      end
+    end
+    return number_of_turns
     
