@@ -1,3 +1,4 @@
 class TicTacToe
   
-  def initialize(board)
+  def initialize(board = nil)
+    @board
