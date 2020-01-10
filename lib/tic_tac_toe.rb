@@ -5,4 +5,5 @@ class TicTacToe
   end 
 end 
 
-WIN_COMBINATION
+WIN_COMBINATIONS [
+  ]
